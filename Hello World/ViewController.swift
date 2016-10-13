@@ -10,7 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var ageTextField: UITextField!
+    
+    @IBOutlet var ageResult: UILabel!
+    
+    @IBAction func submitButton(_ sender: AnyObject) {
+        ageResult.text = String(Int(ageTextField.text!)! * 7)
+    }
+    
     override func viewDidLoad() {
+        
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

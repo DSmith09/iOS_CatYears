@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3F156D1DB02902005D1434 /* cat_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB3F156C1DB02902005D1434 /* cat_image.jpg */; };
 		ABFB71AE1DB00DFF00ED7DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB71AD1DB00DFF00ED7DD0 /* AppDelegate.swift */; };
 		ABFB71B01DB00DFF00ED7DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB71AF1DB00DFF00ED7DD0 /* ViewController.swift */; };
 		ABFB71B31DB00DFF00ED7DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFB71B11DB00DFF00ED7DD0 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB3F156C1DB02902005D1434 /* cat_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat_image.jpg; sourceTree = SOURCE_ROOT; };
 		ABFB71AA1DB00DFF00ED7DD0 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFB71AD1DB00DFF00ED7DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABFB71AF1DB00DFF00ED7DD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				ABFB71AD1DB00DFF00ED7DD0 /* AppDelegate.swift */,
 				ABFB71AF1DB00DFF00ED7DD0 /* ViewController.swift */,
 				ABFB71B11DB00DFF00ED7DD0 /* Main.storyboard */,
+				AB3F156C1DB02902005D1434 /* cat_image.jpg */,
 				ABFB71B41DB00DFF00ED7DD0 /* Assets.xcassets */,
 				ABFB71B61DB00DFF00ED7DD0 /* LaunchScreen.storyboard */,
 				ABFB71B91DB00DFF00ED7DD0 /* Info.plist */,
@@ -234,6 +237,7 @@
 			files = (
 				ABFB71B81DB00DFF00ED7DD0 /* LaunchScreen.storyboard in Resources */,
 				ABFB71B51DB00DFF00ED7DD0 /* Assets.xcassets in Resources */,
+				AB3F156D1DB02902005D1434 /* cat_image.jpg in Resources */,
 				ABFB71B31DB00DFF00ED7DD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				ABFB71D41DB00E0000ED7DD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABFB71D51DB00E0000ED7DD0 /* Build configuration list for PBXNativeTarget "Hello WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				ABFB71D71DB00E0000ED7DD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABFB71D81DB00E0000ED7DD0 /* Build configuration list for PBXNativeTarget "Hello WorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				ABFB71DA1DB00E0000ED7DD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
